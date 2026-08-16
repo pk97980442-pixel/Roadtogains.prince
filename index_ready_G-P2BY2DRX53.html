@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P2BY2DRX53"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-P2BY2DRX53');
+  </script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RoadToGains — Prince</title>
+<meta name="description" content="RoadToGains by Prince — weekly workout plans, fitness mindset and training journey.">
+<meta name="theme-color" content="#070707">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#070707;--panel:#111;--line:#242424;--gold:#d8aa4d;--gold2:#f4d47f;--white:#f7f5ee;--muted:#aaa}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;background:var(--bg);color:var(--white);line-height:1.55}
+a{color:inherit;text-decoration:none}
+.nav{position:fixed;z-index:20;top:0;left:0;right:0;padding:18px 6%;display:flex;align-items:center;justify-content:space-between;background:rgba(7,7,7,.78);backdrop-filter:blur(16px);border-bottom:1px solid #1e1e1e}
+.logo{font-weight:950;letter-spacing:2px;font-size:17px}.logo b{color:var(--gold)}
+.navlinks{display:flex;gap:25px;font-size:13px;color:#ccc}.navlinks a:hover{color:var(--gold2)}
+.hero{min-height:100vh;padding:130px 6% 80px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 35%,#302410 0,#13100a 25%,#070707 66%)}
+.hero:after{content:"";position:absolute;width:620px;height:620px;border:1px solid rgba(216,170,77,.2);border-radius:50%;left:50%;top:10%;transform:translateX(-50%);box-shadow:0 0 130px rgba(216,170,77,.08)}
+.hero-content{position:relative;z-index:2;max-width:950px}
+.tag{font-size:12px;letter-spacing:5px;color:var(--gold2);font-weight:800;text-transform:uppercase}
+h1{font-size:clamp(60px,12vw,155px);line-height:.82;letter-spacing:-7px;text-transform:uppercase;margin:25px 0}
+h1 span{display:block;color:transparent;-webkit-text-stroke:1px var(--white)}
+.hero p{max-width:650px;margin:auto;color:#c4c0b7;font-size:18px}
+.btns{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:30px}
+.btn{border:1px solid var(--gold);border-radius:999px;padding:13px 22px;font-weight:850;font-size:13px;transition:.2s}
+.gold{background:var(--gold);color:#090909}.gold:hover{background:var(--gold2);transform:translateY(-2px)}
+.outline:hover{background:#fff;color:#111;border-color:#fff}
+section{max-width:1180px;margin:auto;padding:100px 6%}
+.head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}
+.kicker{font-size:11px;letter-spacing:3px;color:var(--gold2);font-weight:900;text-transform:uppercase}
+h2{font-size:clamp(38px,6vw,70px);line-height:.95;margin-top:9px}
+.lead{max-width:450px;color:var(--muted)}
+.about{display:grid;grid-template-columns:1.3fr .7fr;gap:20px}
+.panel{background:linear-gradient(145deg,#161616,#0d0d0d);border:1px solid var(--line);border-radius:24px;padding:32px}
+.panel h3{font-size:26px;margin-bottom:10px}.panel p{color:var(--muted)}
+.quote{display:flex;flex-direction:column;justify-content:center;border-color:#3b2e18}
+.quote strong{font-size:24px;color:var(--gold2)}
+.days{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.day{background:linear-gradient(145deg,#151515,#0d0d0d);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.daytop{padding:22px 24px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;align-items:center}
+.daytop h3{font-size:24px}.badge{font-size:10px;letter-spacing:1.5px;color:#111;background:var(--gold);font-weight:900;padding:6px 9px;border-radius:20px}
+.muscle{padding:17px 24px 4px;color:var(--gold2);font-weight:900;text-transform:uppercase;font-size:11px;letter-spacing:2px}
+ul{list-style:none;padding:8px 24px 23px}
+li{padding:9px 0;border-bottom:1px solid #1e1e1e;color:#ddd;font-size:14px}
+li:last-child{border:0}
+li:before{content:"";display:inline-block;width:5px;height:5px;background:var(--gold);border-radius:50%;margin:0 10px 2px 0}
+.rest{grid-column:1/-1;text-align:center;padding:35px;border:1px solid #3d301d;border-radius:22px;background:linear-gradient(135deg,#17130b,#0d0d0d)}
+.rest h3{font-size:30px;color:var(--gold2)}
+.social{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.social a{padding:28px;border:1px solid var(--line);border-radius:20px;background:#111;display:flex;justify-content:space-between;align-items:center}
+.social a:hover{border-color:var(--gold);transform:translateY(-2px)}
+.social small{display:block;color:var(--muted);margin-top:5px}
+.arrow{color:var(--gold2);font-size:25px}
+.cta{max-width:1180px;margin:0 auto 90px;padding:80px 6%;text-align:center;border-radius:28px;border:1px solid #463719;background:radial-gradient(circle at center,#211a0d,#0d0d0d 65%)}
+.cta h2{max-width:800px;margin:12px auto}.cta p{max-width:600px;margin:18px auto;color:var(--muted)}
+footer{border-top:1px solid #202020;padding:32px 6%;display:flex;justify-content:space-between;color:#777;font-size:12px}
+footer strong{color:#eee}
+@media(max-width:760px){
+.nav{padding:16px 5%}.navlinks{display:none}
+.hero{padding:120px 5% 70px}.hero:after{width:360px;height:360px}h1{letter-spacing:-4px}
+section{padding:75px 5%}.head{display:block}.lead{margin-top:17px}
+.about,.days,.social{grid-template-columns:1fr}.rest{grid-column:auto}
+.daytop h3{font-size:21px}footer{display:block;text-align:center}.footer2{margin-top:8px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="logo" href="#">ROAD<b>TOGAINS</b></a>
+  <div class="navlinks">
+    <a href="#about">About</a><a href="#workouts">Workouts</a><a href="#social">Instagram</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <div class="tag">Prince • Fitness • Lifestyle</div>
+    <h1>Road<span>ToGains</span></h1>
+    <p>Train with purpose. Stay consistent. Build your body and your mindset. Welcome to the official RoadToGains workout journey by Prince.</p>
+    <div class="btns">
+      <a class="btn gold" href="#workouts">VIEW WORKOUT PLAN</a>
+      <a class="btn outline" href="#social">FOLLOW ON INSTAGRAM</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="head"><div><div class="kicker">The philosophy</div><h2>Earn every gain.</h2></div><p class="lead">RoadToGains is built around consistent training, discipline and progression. Use the weekly plan below as the foundation of the journey.</p></div>
+  <div class="about">
+    <div class="panel"><h3>Train. Recover. Repeat.</h3><p>Your workout plan is organized by training day so you can quickly see what to train. Exercise selection can be adjusted as your program evolves.</p></div>
+    <div class="panel quote"><strong>“No shortcuts.<br>Just work.”</strong><p style="margin-top:12px">— RoadToGains</p></div>
+  </div>
+</section>
+
+<section id="workouts">
+  <div class="head"><div><div class="kicker">Weekly program</div><h2>Your workout plan.</h2></div><p class="lead">Monday through Saturday training. Sunday is recovery.</p></div>
+  <div class="days">
+
+    <article class="day"><div class="daytop"><h3>Monday</h3><span class="badge">LEGS</span></div>
+      <div class="muscle">Leg Workout</div><ul>
+        <li>Squats</li><li>Leg Extension</li><li>Lunges</li><li>Wide Leg Press</li><li>Calf Raises</li>
+      </ul>
+    </article>
+
+    <article class="day"><div class="daytop"><h3>Tuesday</h3><span class="badge">BACK + BICEPS</span></div>
+      <div class="muscle">Back</div><ul>
+        <li>Pull-ups — till failure</li><li>Deadlift — heavy set</li><li>Seated Rowing</li><li>Reverse Pulldown</li><li>Wide-Grip Lat Pulldown</li><li>Hyperextension</li>
+      </ul>
+      <div class="muscle">Biceps</div><ul><li>Straight-Arm Curl</li><li>Preacher Curl</li><li>Hammer Curl</li><li>Reverse Curl</li></ul>
+    </article>
+
+    <article class="day"><div class="daytop"><h3>Wednesday</h3><span class="badge">CHEST + TRICEPS</span></div>
+      <div class="muscle">Chest</div><ul>
+        <li>Incline Chest Press</li><li>Incline Dumbbell Fly</li><li>Flat Dumbbell Press</li><li>Cable Fly</li><li>Chest Dips — till failure</li><li>Push-ups — till failure</li>
+      </ul>
+      <div class="muscle">Triceps</div><ul><li>Close-Grip Bench Press</li><li>Rope Extension</li><li>Skull Crusher</li><li>Dumbbell Kickback</li></ul>
+    </article>
+
+    <article class="day"><div class="daytop"><h3>Thursday</h3><span class="badge">LEGS</span></div>
+      <div class="muscle">Leg Workout</div><ul>
+        <li>Squats</li><li>Leg Press — close grip</li><li>Dumbbell Sumo Squats</li><li>Hip Thrust</li><li>Leg Curls</li><li>Calf Raises</li>
+      </ul>
+    </article>
+
+    <article class="day"><div class="daytop"><h3>Friday</h3><span class="badge">SAME AS WEDNESDAY</span></div>
+      <div class="muscle">Chest + Triceps</div><ul><li>Repeat Wednesday's Chest + Triceps workout</li></ul></article>
+
+    <article class="day"><div class="daytop"><h3>Saturday</h3><span class="badge">SHOULDERS</span></div>
+      <div class="muscle">Shoulders</div><ul>
+        <li>Dumbbell Press</li><li>Military Press</li><li>Lateral Raises</li><li>Upright Row</li><li>Side Raises</li><li>Cable Front Raise</li><li>Pec Deck</li><li>Barbell Shrugs</li>
+      </ul>
+    </article>
+
+    <article class="rest"><div class="kicker">Recovery day</div><h3>Sunday — REST</h3><p style="color:#aaa;margin-top:6px">Recover, reset and get ready for the next week.</p></article>
+  </div>
+</section>
+
+
+
+<section id="social">
+  <div class="head"><div><div class="kicker">Follow the journey</div><h2>Find Prince.</h2></div><p class="lead">Connect through the official RoadToGains Instagram accounts.</p></div>
+  <div class="social">
+    <a href="https://www.instagram.com/roadtogains.prince/" target="_blank" rel="noopener"><div><strong>@roadtogains.prince</strong><small>RoadToGains Instagram</small></div><span class="arrow">↗</span></a>
+    <a href="https://www.instagram.com/_prince01_0/" target="_blank" rel="noopener"><div><strong>@_prince01_0</strong><small>Prince Instagram</small></div><span class="arrow">↗</span></a>
+  </div>
+</section>
+
+<div class="cta">
+  <div class="kicker">Start your journey</div>
+  <h2>MAKE YOUR OWN ROAD TO GAINS.</h2>
+  <p>Consistency is the difference between wanting it and becoming it.</p>
+  <div class="btns">
+    <a class="btn gold" href="https://www.instagram.com/roadtogains.prince/" target="_blank" rel="noopener">ROADTOGAINS INSTAGRAM</a>
+    <a class="btn outline" href="https://www.instagram.com/_prince01_0/" target="_blank" rel="noopener">PRINCE INSTAGRAM</a>
+  </div>
+</div>
+
+<footer><div>© 2026 <strong>RoadToGains — Prince</strong></div><div class="footer2">DISCIPLINE • TRAINING • PROGRESS</div></footer>
+</body>
+</html>
